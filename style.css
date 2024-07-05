@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #4c669f, #3b5998, #192f6a);
+    color: #fff;
+}
+
+#game {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: black; /* Set X and O to black color */
+}
+
+.cell:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+#status {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#reset {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #3b5998;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#reset:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.cell.X {
+    color: black;
+}
+
+.cell.O {
+    color: red;
+}
+
