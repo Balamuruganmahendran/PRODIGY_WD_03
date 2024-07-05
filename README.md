@@ -10,7 +10,6 @@ A simple Tic Tac Toe game implemented using HTML, CSS, and JavaScript.
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 
@@ -46,30 +45,6 @@ The game is very easy to use:
 4. The game will display a message when a player wins or if the game is a draw.
 5. Click the "Restart" button to play again.
 
-## Contributing
-
-Contributions are welcome! Please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch:
-
-
-   git checkout -b feature-name
- 
-
-3. Make your changes and commit them:
-
-
-   git commit -m 'Add some feature'
-
-
-4. Push to the branch:
-
-
-   git push origin feature-name
-
-
-5. Open a pull request.
 
 ## License
 
