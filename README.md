@@ -74,6 +74,5 @@ Contributions are welcome! Please follow these steps to contribute:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
 
-This README provides a clear overview of the project, including how to install and use it, and encourages contributions. Be sure to replace placeholder text (like `https://your-live-demo-link.com` and `https://github.com/Balamuruganmahendran/tic-tac-toe.git`) with actual links related to your project.
+
